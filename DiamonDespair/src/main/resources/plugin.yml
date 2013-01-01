@@ -1,0 +1,39 @@
+name: DiamonDespair
+version: .3
+main: me.gnomeffinway.diamondespair.Main
+description: >
+    A plugin to replace specific blocks with others upon being broken.
+
+commands:
+   diamondespair:
+      description: Check status of DiaD
+      usage: /<command>
+      aliases: [diad]
+      permission: diamondespair.diamondespair
+      permission-message: You don't have access
+   diadactivator:
+      description: Set the block to be replaced
+      usage: /<command> <blockID>
+      aliases: [ddactivator]
+      permission: diamondespair.activator
+      permission-message: You don't have access
+   diadreplacement:
+      description: Set the block to replace with
+      usage: /<command> <blockID>
+      aliases: [ddreplacement]
+      permission: diamondespair.replacement
+      permission-message: You don't have access
+   diadpunish:
+      description: Punish a player
+      usage: /<command> <player>
+      aliases: [ddpunish]
+      permission: diamondespair.punish
+      permission-message: You don't have access
+   diadforgive:
+      description: Forgive a player
+      usage: /<command> <player>
+      aliases: [ddforgive]
+      permission: diamondespair.forgive
+      permission-message: You don't have access
+
+
